@@ -399,7 +399,12 @@
 
 
 <script src="/js/script.js"></script>
-
+<script> 
+  var password = prompt("请输入密码查看本站：");
+  if (password !== "welcome") {
+    document.body.innerHTML = "<h1>访问被拒绝</h1>";
+  }
+</script>
 
 
 
